@@ -1,0 +1,34 @@
+{
+  "name": "file-storage-minimal-sample",
+  "description": "Demonstrates an import error with ES2022 modules",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start:error": "node build/error.js",
+    "start:success": "node build/success.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr258/file-storage-minimal-sample.git"
+  },
+  "author": "Sebastian Rettig <serettig@posteo.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sr258/file-storage-minimal-sample/issues"
+  },
+  "homepage": "https://github.com/sr258/file-storage-minimal-sample#readme",
+  "dependencies": {
+    "@file-storage/common": "^1.3.3",
+    "@file-storage/core": "^1.3.3",
+    "tslib": "^2.4.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
